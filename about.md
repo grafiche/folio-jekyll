@@ -1,5 +1,5 @@
 ---
-title: about
+title: über mich
 permalink: "/ueber-mich/"
 layout: page
 ---
@@ -18,13 +18,15 @@ Ochsentour in Atelier und Werbeagentur<br/>
 <hr/>
 <br/>
 <span class="contacticon center">
-	<a href="mailto:info@atelierscheidegger.ch"><i class="fa fa-envelope-square"></i></a>
-	<a href="https://github.com/grafiche" target="_blank"><i class="fa fa-github-square"></i></a>
-	<a href="https://www.linkedin.com/in/christof-scheidegger-5898b7bb/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
-	<a href="https://twitter.com/grafichepunktch" target="_blank"><i class="fa fa-twitter-square"></i></a>
-<a href="https://www.facebook.com/atelierscheidegger/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+<a href="mailto:info@atelierscheidegger.ch"><i class="fa fa-envelope-square"></i></a>
+<a href="https://github.com/grafiche" target="_blank"><i class="fa fa-github-square"></i></a>
+<a href="https://www.linkedin.com/in/christof-scheidegger-5898b7bb/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+<a href="https://twitter.com/grafichepunktch" target="_blank"><i class="fa fa-twitter-square"></i></a>
+<a href="https://www.facebook.com/atelierscheidegger" target="_blank"><i class="fa fa-facebook-square"></i></a>
 </span>
 <div class="col three caption">
-	You can even add a little note about which of these is the best way to reach you.
+You can even add a little note about which of these is the best way to reach you.
 </div>
-
+# Titel 1
+## Titel 2
+### Titel 3
