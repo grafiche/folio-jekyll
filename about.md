@@ -21,9 +21,9 @@ Link to your social media connections, too. This theme is set up to use <a href=
 	<a href="https://www.linkedin.com/in/christof-scheidegger-5898b7bb/" target="_blank"><i class="fa fa-linkedin-square"></i></a>
 	
 	<a href="https://twitter.com/grafichepunktch" target="_blank"><i class="fa fa-twitter-square"></i></a>
-</span>
-<a href="https://www.facebook.com/atelierscheidegger/" target="_blank"><i class="fa fa-facebook-square"></i></a>
 
+<a href="https://www.facebook.com/atelierscheidegger/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+</span>
 <div class="col three caption">
 	You can even add a little note about which of these is the best way to reach you.
 </div>
