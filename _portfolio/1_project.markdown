@@ -13,13 +13,13 @@ To give your project a background in the portfolio page, just add the img tag to
 	layout: post
 	title: Project
 	description: a project with a background image
-	img: /img/12.jpg
+	img: /uploads/trifold.jpg
 	---
 
 
 <div class="img_row">
 	<img class="col one" src="{{ site.baseurl }}/uploads/trifold.jpg" alt="" title="example image"/>
-	<img class="col one" src="{{ site.baseurl }}/uploads/business-card.jpg" alt="" title="example image"/>
+	<img class="col one" src="{{ site.baseurl }}/img/2.jpg" alt="" title="example image"/>
 	<img class="col one" src="{{ site.baseurl }}/img/3.jpg" alt="" title="example image"/>
 </div>
 <div class="col three caption">
