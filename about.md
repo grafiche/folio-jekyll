@@ -1,6 +1,6 @@
 ---
 title: about
-permalink: "/über mich/"
+permalink: "/ueber-mich/"
 layout: page
 ---
 
