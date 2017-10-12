@@ -1,7 +1,7 @@
 ---
 title: Project
 description: a project with a background image
-img: "/img/12.jpg"
+img: "/uploads/trifold.jpg"
 layout: post
 ---
 
