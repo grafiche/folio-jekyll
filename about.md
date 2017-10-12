@@ -9,10 +9,10 @@ layout: page
 <br/>
 seit 2015<br/>
 Selbständig tätig im Bereich Grafik, Webdesign und Kommunikation
-<br/>
+<br/><br/>
 2003 – 2015<br/>
 Ochsentour in Kommunikation und Marketing bei schweizweit tätigen Verbänden.
-<br/>
+<br/><br/>
 1999 – 2003<br/>
 Ochsentour in Atelier und Werbeagentur 
 
