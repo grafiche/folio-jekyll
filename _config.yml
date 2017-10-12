@@ -26,5 +26,5 @@ collections:
     output: true
     permalink: /poetry/:path/
 
-plugins:
+plugins_dir:
 - jekyll-admin
