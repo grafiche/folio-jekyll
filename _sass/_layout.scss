@@ -1,4 +1,6 @@
 
+$break-small: 360px;
+
 /**
  * Site header   **********************************************************
  */
@@ -17,7 +19,7 @@ z-index: 50;
 .site-title {
 font-size: 20px;
 line-height: $nav-height;
-letter-spacing: -1px;
+letter-spacing: 0px;
 margin-bottom: 0;
 &:hover {
 text-decoration: none;
@@ -67,6 +69,7 @@ display: line;
     }
     h2{
         font-size:25px;
+        line-height: 30px;
     }
 }
 
@@ -133,13 +136,20 @@ margin-bottom: $vertical-spacing-unit;
 }
 .post-title {
 font-size: 42px;
-letter-spacing: -1px;
-line-height: 1;
+letter-spacing: 0px;
+line-height: 1.1;
 @include media-query($on-laptop) {
-font-size: 36px;
+font-size: 25px;
+line-height: 30px;
     }
 }
 .post-content {
+h1 {
+  font-size: 58px;
+  @include media-query($on-laptop) {
+  font-size: 38px;
+          }
+      }
 h2 {
 font-size: 42px;
 @include media-query($on-laptop) {
@@ -162,7 +172,7 @@ font-size: 18px;
 .post-meta {
 font-size: $small-font-size;
 color: $grey-color;
-margin-bottom: 0px; 
+margin-bottom: 0px;
 }
 .post-link {
 display: block;
@@ -171,16 +181,16 @@ font-size: 42px;
 
 /** Poem formatting ********************************************/
 .poem-title {
-font-size: 24px;
-letter-spacing: -1px;
+font-size: 42px;
+letter-spacing: 0px;
 line-height: 1;
 @include media-query($on-laptop) {
-font-size: 16px;
+font-size: 25px;
     }
 }
 
 
-/** 
+/**
  * Portfolio grid **********************************************************
 */
 // Nicolas Gallagher's micro clearfix hack
@@ -200,6 +210,9 @@ float: left;
 vertical-align: middle;
 box-sizing: border-box;
 padding: 10px;
+@media screen and (max-width: $break-small) {
+  width: 100%;
+}
 }
 .thumbnail{
 width: 100%;
@@ -234,7 +247,7 @@ text-align: center;
 .thumbnail a:hover span {
 display: block;
 }
-/** 
+/**
  * Portfolio pages **********************************************************
 */
 .blankbox{
@@ -247,22 +260,31 @@ overflow: hidden;
 box-sizing:border-box;
 padding: $img_spacing;
 }
-.col{ 
+.col{
 width: 100%;
 height: 100%;
 float: left;
 object-fit: cover;
 box-sizing:border-box;
 padding: $img_spacing;
+@media screen and (max-width: $break-small) {
+padding: 10px 0px;
+}
 }
 .right{
 float: right;
 }
 .one {
 width:33.33%;
+@media screen and (max-width: $break-small) {
+width:100%;
+}
 }
 .two {
 width: 66.66%;
+@media screen and (max-width: $break-small) {
+width:100%;
+}
 }
 .three{
 width: 100%;
